@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world() -> str:
-    return 'Hello world! How are you?'
+    return 'Hello , this is a sample app deployed using CI/CD workflow in AWS ECS'
 
 
 # db_config = get_secret('aws-ecs-demo-db-credentials', region_name='us-east-1')
